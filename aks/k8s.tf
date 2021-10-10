@@ -67,5 +67,6 @@ resource "azurerm_kubernetes_cluster" "k8s" {
 
     tags = {
         Environment = "Development"
+        Owner = "Team Name"
     }
 }
